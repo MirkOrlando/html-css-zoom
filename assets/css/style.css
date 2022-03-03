@@ -46,6 +46,10 @@ ul.unstyled {
     color: var(--success);
 }
 
+.alert {
+    color: var(--alert);
+}
+
 /* font-size */
 
 .fs-24 {
@@ -78,13 +82,16 @@ ul.unstyled {
 }
 
 .view-functions {
+    column-gap: 5px;
     position: absolute;
     top: 5px;
     right: 5px;
 }
 
-.view-functions { /* cambiare il tag html selezionato e selezionare i suoi figli */
+.view-functions div{
     background-color: var(--paledark);
+    padding: 0.25rem;
+    border-radius: 5px;
 }
 
 /* #endregion site-header */
@@ -137,8 +144,12 @@ ul.unstyled {
     row-gap: 5px;
 }
 
-
-
+#site-footer .right-menu.d-flex{
+    align-items: center;
+    height: 100%;
+    background-color: var(--paledark);
+    padding: 0 1rem;
+}
 
 /* #endregion site-footer */
 
