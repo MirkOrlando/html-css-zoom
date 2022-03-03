@@ -7,7 +7,13 @@
 }
 
 body {
+    min-width: 1440px;
     font-family: var(--font-family);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 a {
@@ -100,6 +106,7 @@ ul.unstyled {
 
 #site-main {
     display: flex;
+    justify-content: center;
     height: calc(100vh - 120px);
     background-color: var(--darker);
     color: var(--lighter);
@@ -107,7 +114,23 @@ ul.unstyled {
 
 .container {
     width: 90%;
-    margin: auto;
+    height: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.container-pic {
+    width: 13%;
+    max-height: 125px;
+}
+
+.username {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.25rem;
+    background-color: rgb(28 28 28 / 60%);
 }
 
 /* #endregion site-main */
