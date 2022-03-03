@@ -7,7 +7,6 @@
 }
 
 body {
-    min-width: 1440px;
     font-family: var(--font-family);
 }
 
@@ -107,17 +106,19 @@ ul.unstyled {
 #site-main {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: calc(100vh - 120px);
     background-color: var(--darker);
     color: var(--lighter);
+    overflow: auto;
 }
 
 .container {
-    width: 90%;
-    height: 90%;
+    flex-basis: 74%;
     justify-content: center;
     flex-wrap: wrap;
     gap: 5px;
+    font-size: 12px;
 }
 
 .container-pic {
@@ -144,6 +145,10 @@ ul.unstyled {
     height: 80px;
     background-color: var(--dark);
     color: var(--lighter);
+}
+
+.left-menu {
+    padding-left: 5px;
 }
 
 #site-footer ul a {
