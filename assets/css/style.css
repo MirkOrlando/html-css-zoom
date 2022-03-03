@@ -10,6 +10,14 @@ body {
     font-family: var(--font-family);
 }
 
+a {
+    text-decoration: none;
+}
+
+ul.unstyled {
+    list-style: none;
+}
+
 /* #endregion common */
 
 /* #region utility */
@@ -30,6 +38,12 @@ body {
 
 .d-flex {
     display: flex;
+}
+
+/* font-size */
+
+.fs-24 {
+    font-size: 24px;
 }
 
 /* #endregion utility */
@@ -95,6 +109,30 @@ body {
     background-color: var(--dark);
     color: var(--lighter);
 }
+
+#site-footer ul a {
+    color: var(--lighter);
+    font-weight: 100;
+}
+
+#site-footer ul.d-flex {
+    align-items: center;
+    column-gap: 10px;
+}
+
+#site-footer ul li.d-flex {
+    align-items: center;
+    column-gap: 10px;
+}
+
+#site-footer ul a.d-flex {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+
+
+
 
 /* #endregion site-footer */
 
