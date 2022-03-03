@@ -1,0 +1,23 @@
+/* #region common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion common */
+
+/* #region utility */
+
+:root {
+    --darker: #000000;
+    --dark: #222222;
+    --paledark: #4A4A4A;
+    --success: #4BC800;
+    --alert: #FF2639;
+    --lighter: #FFFFFF;    
+}
+
+/* #endregion utility */
+
