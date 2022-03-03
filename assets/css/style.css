@@ -40,6 +40,12 @@ ul.unstyled {
     display: flex;
 }
 
+/* colors */
+
+.success {
+    color: var(--success);
+}
+
 /* font-size */
 
 .fs-24 {
@@ -117,7 +123,7 @@ ul.unstyled {
 
 #site-footer ul.d-flex {
     align-items: center;
-    column-gap: 10px;
+    column-gap: 15px;
 }
 
 #site-footer ul li.d-flex {
